@@ -5,4 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label:
+          default-label: main
+          uri: https://github.com/ybarrial/config-server
+          search-paths: config-data
+  application:
+    name: config-service
